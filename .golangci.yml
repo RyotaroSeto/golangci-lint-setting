@@ -27,10 +27,10 @@ linters-settings:
   copyloopvar:
     check-alias: true
   govet:
-    disable-all: true
+    # disable-all: true
     # 加えたいものを追加する
-    # enable:
-    #   - appends
+    enable:
+      - slicenilcmp
 linters:
   enable:
     - errcheck
