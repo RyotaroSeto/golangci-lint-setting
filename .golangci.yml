@@ -31,6 +31,7 @@ linters-settings:
     # 加えたいものを追加する
     enable:
       - slicenilcmp
+      - dupimport
 linters:
   enable:
     - errcheck
