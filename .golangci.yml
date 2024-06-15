@@ -44,3 +44,8 @@ linters:
     - copyloopvar
     - gocyclo
     - prealloc
+    - lll # 1行あたりの文字数制限
+    - gocyclo # 循環複雑度
+    - goconst # 定数置き換え可能な繰り返し文字列指摘
+    - nestif # ifのネスト回数制御
+    - tagliatelle # タグの記述間違い
